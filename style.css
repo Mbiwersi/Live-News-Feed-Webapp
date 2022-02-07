@@ -1,0 +1,115 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+nav div{
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: inline-block;
+    padding: .5%;
+    margin: .25% auto;
+}
+
+/*Email button*/
+#email{
+    float: right;
+}
+
+/* RSS Feeder header */
+nav div h1{
+    display: inline-block;
+    font-size:x-large
+}
+
+#select-label{
+    font-weight: bold;
+    white-space: nowrap;
+    font-size: x-large;
+    margin-left: 2%;
+    line-height: 2em;
+}
+
+/* Load button */
+#news-button{
+    margin: 10%;
+}
+
+#news-select-container{
+    display: inline-flex;
+    width: 40%;
+}
+
+/* Select form children */
+#news-select-container * {
+    margin: 2% 5% 5% 0;
+}
+
+/* News articles */
+main{
+    margin: 0 10%;
+}
+
+/* Change the links to not have the line underneath */
+h1 a{
+    text-decoration: none;
+    color: white;
+    font-size: .75em;
+}
+
+h1 a:hover{
+    text-decoration:underline;
+    color:white;
+}
+
+/* Whole news article list */
+#newsfeed{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Single news article */
+#newsfeed li{
+    margin-bottom: 2.5%;
+}
+
+/* All sections in a news article */
+#newsfeed li *{
+    margin: 0;
+}
+
+/* Title of the article */
+div.news-article h1{
+    background-color: black;
+    color: white;
+    padding: 1%;
+}
+
+/* Date and time of news artilce */
+div.news-article p:first-of-type{
+    background-color: blue;
+    color: white;
+    padding: .25% .25% .5% 1%;
+    font-weight: bold;
+}
+
+/* News article description */
+div.news-article p:last-of-type{
+    padding: 1.75%;
+    font-size: large;
+    background-color: rgb(241, 241, 241);
+}
+
+footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+}
+
+footer small{
+    font-weight: bold;
+}
