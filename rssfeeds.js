@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             allFeeds = feeds;
         },
         error: function( xhr, status, errorThrown ) {
-            alert( "Sorry, there was a problem!"  + errorThrown );
+            alert( `Sorry, there was a problem!, Might need to be connected to UWL servers. Status: ${status}`);
         },
         complete: function( xhr, status ) {
             // alert( `Status: ${status} The request is complete!` );
